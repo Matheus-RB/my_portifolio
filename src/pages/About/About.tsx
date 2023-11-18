@@ -1,5 +1,6 @@
 import AboutMe from "../../components/AboutMe/AboutMe"
 import Contacts from "../../components/Contacts/Contacts"
+import Experiences from "../../components/Experiences/Experiences"
 import Technologies from "../../components/Technologies/Technologies"
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
       </div>
       <AboutMe />
       <Contacts />
+      <Experiences />
       <Technologies />
     </section>
   )

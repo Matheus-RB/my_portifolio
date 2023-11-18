@@ -14,8 +14,8 @@ import GitHubSvg from "../../images/github.svg"
 const Technologies = () => {
   return (
     <div className="flex flex-col items-center w-8/12 text-center">
-      <div className="w-10/12 p-10 border-t">
-        <span className="text-xl">TECNOLOGIAS</span>
+      <div className="w-10/12 p-10 border-t border-gray-700">
+        <span className="text-xl text-blue-400">TECNOLOGIAS</span>
       </div>
       <div className="grid grid-cols-5 gap-4 items-center w-full">
         <Technology svg={HtmlSvg} name="HTML5" />
