@@ -2,7 +2,7 @@ import DownloadCv from "../DownloadCv/DownloadCv";
 
 const AboutMe = () => {
   return (
-    <div className="w-[880px] flex flex-col gap-2">
+    <div className="flex flex-col gap-2">
       <p>
         Meu nome é Matheus, e atualmente, ocupo a posição de desenvolvedor
         front-end na TopSapp, onde trabalho no desenvolvimento de interfaces de

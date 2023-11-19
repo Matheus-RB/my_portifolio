@@ -6,7 +6,7 @@ import whatsSvg from "../../images/whats.svg";
 
 const Contacts = () => {
   return (
-    <div className="flex flex-col gap-2 pt-2 w-[880px]">
+    <div className="flex flex-col gap-2 w-full">
       <div className="py-5">
         <span className="text-xl text-blue-400">CONTATOS</span>
       </div>

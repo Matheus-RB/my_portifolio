@@ -1,3 +1,5 @@
+import down from "../..//images/down.gif"
+
 const DownloadCv = () => {
   const pdfFileName = "Curriculum.pdf";
 
@@ -11,10 +13,11 @@ const DownloadCv = () => {
 
   return (
     <button
-      className="rounded-md border bg-blue-900 w-max p-2"
+      className="rounded-md border bg-[#1f3a8b] font-bold w-max p-2 flex items-center justify-center text-gray-900"
       onClick={handleDownload}
     >
-      Download CV
+      CURRICULUM
+      <img src={down} width={20} height={20} />
     </button>
   );
 };
