@@ -10,6 +10,7 @@ import TailwindSvg from "../../images/tailwindcss.svg";
 import CSharpSvg from "../../images/c_sharp.svg";
 import GitSvg from "../../images/git.svg"
 import GitHubSvg from "../../images/github.svg"
+import LaravelSvg from "../../images/laravel.svg"
 
 const Technologies = () => {
   return (
@@ -27,6 +28,7 @@ const Technologies = () => {
         <Technology svg={TailwindSvg} name="Tailwind CSS" />
         <Technology svg={GitSvg} name="Git" />
         <Technology svg={GitHubSvg} name="GitHub" />
+        <Technology svg={LaravelSvg} name="Laravel" />
         <Technology svg={CSharpSvg} name="C Sharp" />
       </div>
     </div>

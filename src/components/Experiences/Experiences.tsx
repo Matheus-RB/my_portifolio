@@ -12,7 +12,7 @@ const Experiences = () => {
         No meu trabalho atual, atuo como desenvolvedor front-end, desempenhando um papel crucial na manutenção e desenvolvimento de páginas para a empresa em que estou inserido."
         initial="02/2023"
         office="FRONT-END"
-        technologies="HTML5, CSS3, JavaScript, TypeScript, React, Tailwind CSS, Git e GitHub."
+        technologies="HTML5, CSS3, JavaScript, TypeScript, React, Tailwind CSS, Laravel, Git e GitHub."
       />
     </div>
   );
