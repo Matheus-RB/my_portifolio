@@ -14,7 +14,7 @@ const Certificate = ({ patch, credential }: Props) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <img src={`src/images/${patch}`} alt="certificado" className="w-full h-auto max-w-full xl:max-h-[303px]" />
+      <img src={`/images/${patch}`} alt="certificado" className="w-full h-auto max-w-full xl:max-h-[303px]" />
 
       {isHovered && (
         <div className="absolute bottom-4 right-4">

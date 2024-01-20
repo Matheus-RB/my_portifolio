@@ -1,16 +1,16 @@
 import Technology from "../Technology/Technology";
 
-import HtmlSvg from "../../images/html.svg";
-import CssSvg from "../../images/css.svg";
-import JavascriptSvg from "../../images/javascript.svg";
-import TypescriptSvg from "../../images/typescript.svg";
-import ReactSvg from "../../images/react.svg";
-import NextSvg from "../../images/next.svg";
-import TailwindSvg from "../../images/tailwindcss.svg";
-import CSharpSvg from "../../images/c_sharp.svg";
-import GitSvg from "../../images/git.svg"
-import GitHubSvg from "../../images/github.svg"
-import LaravelSvg from "../../images/laravel.svg"
+import HtmlSvg from "/images/html.svg";
+import CssSvg from "/images/css.svg";
+import JavascriptSvg from "/images/javascript.svg";
+import TypescriptSvg from "/images/typescript.svg";
+import ReactSvg from "/images/react.svg";
+import NextSvg from "/images/next.svg";
+import TailwindSvg from "/images/tailwindcss.svg";
+import CSharpSvg from "/images/c_sharp.svg";
+import GitSvg from "/images/git.svg"
+import GitHubSvg from "/images/github.svg"
+import LaravelSvg from "/images/laravel.svg"
 
 const Technologies = () => {
   return (

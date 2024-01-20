@@ -1,8 +1,8 @@
-import email from "../../images/email.png";
-import linkedinSvg from "../../images/linkedin.svg";
+import email from "/images/email.png";
+import linkedinSvg from "/images/linkedin.svg";
 import Contact from "../Contact/Contact";
-import gitHubSvg from "../../images/github.svg";
-import whatsSvg from "../../images/whats.svg";
+import gitHubSvg from "/images/github.svg";
+import whatsSvg from "/images/whats.svg";
 
 const Contacts = () => {
   return (

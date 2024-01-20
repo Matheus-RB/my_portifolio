@@ -1,4 +1,4 @@
-import down from "../..//images/down.gif"
+import down from "/images/down.gif"
 
 const DownloadCv = () => {
   const pdfFileName = "MatheusReis-CV.pdf";

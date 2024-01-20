@@ -1,11 +1,11 @@
 import Card from "../../components/Card/Card";
-import tuneImg from "../../images/tune_zone.png";
+import tuneImg from "/images/tune_zone.png";
 
 const icons = {
-  React: "src/images/react.svg",
-  Next: "src/images/next.svg",
-  Tailwind: "src/images/tailwindcss.svg",
-  GitHub: "src/images/github.svg"
+  React: "/images/react.svg",
+  Next: "/images/next.svg",
+  Tailwind: "/images/tailwindcss.svg",
+  GitHub: "/images/github.svg"
 };
 
 const Projects = () => {
