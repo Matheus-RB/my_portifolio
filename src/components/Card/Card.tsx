@@ -1,49 +1,61 @@
 interface Props {
   name: string;
-  technologies: string;
+  technologies: string[];
   gitHub: string;
   site: string;
   image: string;
-  block?: boolean;
+  characteristics: string[];
+  icons: Record<string, string>;
 }
 
-const Card = ({ image, gitHub, name, site, technologies, block }: Props) => {
+const Card = ({
+  gitHub,
+  image,
+  name,
+  site,
+  technologies,
+  characteristics,
+  icons,
+}: Props) => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="group h-[300px] w-full lg:h-[380px] lg:w-[490px]">
-        <div className="relative h-full w-full rounded-lg shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-          <div className="absolute inset-0">
-            <img
-              className="rounded-lg object-cover h-full w-full shadow-xl shadow-black/40"
-              src={image}
-              alt={`${name}Image`}
-            />
-          </div>
-          <div className="absolute inset-0 h-full w-full rounded-lg bg-black/90 px-12 text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-            <div className="flex min-h-full flex-col justify-center">
-              <h1 className="text-lg">Projeto: {name}</h1>
-              {!block && (
-                <div>
-                  <p className="text-lg">Tecnologias: {technologies}</p>
-                  <p className="text-lg">
-                    GitHub:{" "}
-                    <a target="_blank" rel="noopener noreferrer" href={gitHub}>
-                      GitHub.{name}
-                    </a>
-                  </p>
-                  <p className="text-lg">
-                    Site:{" "}
-                    <a href={site} target="_blank" rel="noopener noreferrer">
-                      {site}
-                    </a>
-                  </p>
-                </div>
-              )}
-            </div>
+      <div className="text-light bg-gray-900 border border-opacity-25 rounded-md">
+        <img className="rounded-t-[4.7px]" src={image} alt={`img-${name}`} />
+        <div className="card-body">
+          <div className="card-title text-2xl font-bold text-center">
+            {name}
           </div>
         </div>
+        <div className="p-3">
+          <ul className="list-disc list-inside">
+            {characteristics.map((char, index) => (
+              <li key={index} className="rounded-pill text-dark bg-light">
+                {char}
+              </li>
+            ))}
+          </ul>
+          <div className="py-1 flex gap-4 mt-3">
+            <button
+              type="button"
+              className="py-1 px-2 bg-gray-400 rounded-md"
+              onClick={() => window.open(gitHub, "_blank")}
+            >
+              GitHub
+            </button>
+            <button
+              type="button"
+              className="py-1 px-2 bg-gray-400 rounded-md"
+              onClick={() => window.open(site, "_blank")}
+            >
+              Site
+            </button>
+          </div>
+        </div>
+        <div className="rounded-b-[4.7px] bg-gray-600 grid grid-cols-4 p-2">
+          {technologies.map((tech, index) => (
+            <img key={index} src={icons[tech]} alt={tech} />
+          ))}
+        </div>
       </div>
-    </div>
   );
 };
 

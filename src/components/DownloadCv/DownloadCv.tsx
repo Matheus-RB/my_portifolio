@@ -1,7 +1,7 @@
 import down from "../..//images/down.gif"
 
 const DownloadCv = () => {
-  const pdfFileName = "Curriculum.pdf";
+  const pdfFileName = "MatheusReis-CV.pdf";
 
   const handleDownload = () => {
     const pdfPath = `/pdfs/${pdfFileName}`;
@@ -13,7 +13,7 @@ const DownloadCv = () => {
 
   return (
     <button
-      className="rounded-md border bg-[#1f3a8b] font-bold w-max p-2 flex items-center justify-center text-gray-900"
+      className="rounded-md border bg-[#1f3a8b] hover:bg-blue-400 font-bold w-max p-2 flex items-center justify-center text-gray-900"
       onClick={handleDownload}
     >
       CURRICULUM

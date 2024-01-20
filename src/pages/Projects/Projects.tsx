@@ -1,6 +1,12 @@
 import Card from "../../components/Card/Card";
 import tuneImg from "../../images/tune_zone.png";
-import breve from "../../images/breve.jpg";
+
+const icons = {
+  React: "src/images/react.svg",
+  Next: "src/images/next.svg",
+  Tailwind: "src/images/tailwindcss.svg",
+  GitHub: "src/images/github.svg"
+};
 
 const Projects = () => {
   return (
@@ -9,29 +15,33 @@ const Projects = () => {
         <div className="text-center py-10 md:py-20">
           <h2 className="text-gray-300 text-4xl font-semibold">PROJETOS</h2>
         </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:p-10">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
           <Card
             gitHub="https://github.com/MatheusReisBarros/TuneZone"
             name="TuneZone"
             site="https://tune-zone.vercel.app/"
-            technologies="React.js, Next.jsx e Tailwindcss."
+            technologies={["React", "Next", "Tailwind", "GitHub"]}
             image={tuneImg}
+            characteristics={['Site de música', 'Interface simples e agradável']}
+            icons={icons}
           />
-          <Card
-            gitHub="#"
-            image={breve}
-            name="Em breve"
-            site="#"
-            technologies="none"
-            block={true}
+           <Card
+            gitHub="https://github.com/MatheusReisBarros/TuneZone"
+            name="TuneZone"
+            site="https://tune-zone.vercel.app/"
+            technologies={["React", "Next", "Tailwind", "GitHub"]}
+            image={tuneImg}
+            characteristics={['Site de música', 'Interface simples e agradável']}
+            icons={icons}
           />
-          <Card
-            gitHub="#"
-            image={breve}
-            name="Em breve"
-            site="#"
-            technologies="none"
-            block={true}
+           <Card
+            gitHub="https://github.com/MatheusReisBarros/TuneZone"
+            name="TuneZone"
+            site="https://tune-zone.vercel.app/"
+            technologies={["React", "Next", "Tailwind", "GitHub"]}
+            image={tuneImg}
+            characteristics={['Site de música', 'Interface simples e agradável']}
+            icons={icons}
           />
         </div>
       </div>

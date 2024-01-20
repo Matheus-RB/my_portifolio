@@ -18,7 +18,7 @@ const Technologies = () => {
       <div className="p-10 border-t border-gray-700 w-full">
         <span className="text-xl text-blue-400">TECNOLOGIAS</span>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 items-center w-full">
+      <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 items-center w-full">
         <Technology svg={HtmlSvg} name="HTML5" />
         <Technology svg={CssSvg} name="CSS3" />
         <Technology svg={JavascriptSvg} name="JavaScript" />

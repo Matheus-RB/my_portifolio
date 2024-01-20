@@ -4,25 +4,19 @@ const AboutMe = () => {
   return (
     <div className="flex flex-col gap-2">
       <p>
-        Meu nome é Matheus, e atualmente, ocupo a posição de desenvolvedor
-        front-end na TopSapp, onde trabalho no desenvolvimento de interfaces de
-        usuário intuitivas e atraentes. Paralelamente, estou cursando Sistemas
-        de Informação na Universidade Estadual do Mato-Grosso (UNEMAT), buscando
-        uma sólida base teórica para complementar minha experiência prática.
+        Me chamo Matheus, sou desenvolvedor front-end na TopSapp e atualmente estudante de Sistemas de Informação na UNEMAT.
+        Meu tempo livre é dedicado ao desenvolvimento de projetos pessoais e ao aprofundamento no estudo da linguagem de programação
+        C#.
       </p>
       <p>
-        Ao longo da minha carreira, tive a oportunidade de trabalhar em projetos
-        desafiadores, como ERP's e manutenção de sites. Estou constantemente
-        buscando oportunidades para expandir meu conhecimento, participando de
-        cursos e mantendo-me atualizado sobre as últimas tendências do
-        desenvolvimento front-end.
+        No ambiente profissional, atuo na criação e manutenção de diversas plataformas, tais como sites, ERPs e CRMs, desempenhando 
+        um papel crucial na evolução tecnológica da empresa. Com experiência em projetos desafiadores, como a implementação de ERPs e 
+        a manutenção de sites, busco incessantemente ampliar meus conhecimentos.
       </p>
       <p>
-        Minha paixão pela tecnologia vai além do trabalho, e estou
-        particularmente interessado em aprofundar os meus conhecimentos em
-        back-end, especialmente em C#. Acredito que a combinação de minha
-        formação acadêmica e experiência prática me posiciona de maneira única
-        para enfrentar desafios futuros e contribuir para projetos inovadores.
+        Mantenho-me atualizado e procuro novos desafios que contribuam para meu crescimento profissional e pessoal. Estou sempre em 
+        busca de oportunidades que me permitam aplicar e expandir minhas habilidades, contribuindo para o avanço da tecnologia e do 
+        desenvolvimento de soluções inovadoras.
       </p>
       <p>
         Estou aberto a novas oportunidades e colaborações. Sinta-se à vontade

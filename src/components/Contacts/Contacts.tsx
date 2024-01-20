@@ -22,8 +22,8 @@ const Contacts = () => {
       />
       <Contact
         icon={gitHubSvg}
-        link="github.com/MatheusReisBarros"
-        text="github.com/MatheusReisBarros"
+        link="github.com/Matheus-RB"
+        text="github.com/Matheus-RB"
       />
       <Contact
         icon={whatsSvg}
