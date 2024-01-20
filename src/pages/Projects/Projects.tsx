@@ -25,24 +25,6 @@ const Projects = () => {
             characteristics={['Site de música', 'Interface simples e agradável']}
             icons={icons}
           />
-           <Card
-            gitHub="https://github.com/MatheusReisBarros/TuneZone"
-            name="TuneZone"
-            site="https://tune-zone.vercel.app/"
-            technologies={["React", "Next", "Tailwind", "GitHub"]}
-            image={tuneImg}
-            characteristics={['Site de música', 'Interface simples e agradável']}
-            icons={icons}
-          />
-           <Card
-            gitHub="https://github.com/MatheusReisBarros/TuneZone"
-            name="TuneZone"
-            site="https://tune-zone.vercel.app/"
-            technologies={["React", "Next", "Tailwind", "GitHub"]}
-            image={tuneImg}
-            characteristics={['Site de música', 'Interface simples e agradável']}
-            icons={icons}
-          />
         </div>
       </div>
     </section>
